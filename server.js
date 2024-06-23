@@ -7,6 +7,8 @@ const htmlRoutes = require('./routes/htmlRoutes');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+app.use(express.json());
+
 //calling the routes and using them
 apiRoutes(app);
 htmlRoutes(app);
@@ -19,5 +21,5 @@ app.use((err, req, res, next) => {
 
 //makes console log log the url for the port for ease access to the page through the terminal
 app.listen(PORT, () => {
-    console.log(`Server is listening at localhost${PORT}`);
+    console.log(`Server is listening at http://localhost:${PORT}`);
 })
