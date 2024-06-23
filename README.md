@@ -8,12 +8,11 @@
 
 ## Usage
 
-    ![alt text](assets/Images/image.png)
+![screenshot](assets/Images/image.png)
 
+![screenshot2](assets/Images/image2.png)
 
-
-    ![alt text](assets/Images/image2.png)
-
+![screenshot3](assets/Images/image3.png)
 
 ## License
 -This Project is under the MIT license
