@@ -1,6 +1,6 @@
 //calls required dependencies and routes needed for the app
 const express = require('express');
-const apiRoutes = require('./routes/apiroutes');
+const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
 
 //defines the app and makes a port to 3001
